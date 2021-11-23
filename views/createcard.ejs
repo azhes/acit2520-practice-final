@@ -4,7 +4,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel ="stylesheet" href="createcardstyles.css"
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <form action="/" method="post">
+    <h1>Create your DevCard</h1>
+      <textarea id="name" name="name">Your Full Name</textarea>
+      <textarea id="aboutme" name="aboutme">About Me</textarea>
+    <h2>Technologies you Know:</h2>
+      <input type="radio" id="HTML" name="known_language" value="HTML">
+      <label for "HTML">HTML</label><br>
+      <input type="radio" id="CSS" name="known_language" value="CSS">
+      <label for "CSS">CSS</label><br>
+      <input type="radio" id="JS" name="known_language" value="JS">
+      <label for "JS">JS</label><br>
+      <input type="radio" id="Git" name="known_language" value="Git">
+      <label for "Git">Git</label><br>
+      <input type="radio" id="React" name="known_language" value="React">
+      <label for "React">React</label><br>
+      <input type="radio" id="Node.js" name="known_language" value="Node.js">
+      <label for "Node.js">Node.js</label><br>
+      <textarea id="github" name="github">Github URL</textarea>
+      <textarea id="twitter" name="twitter">Twitter URL</textarea>
+      <textarea id="books" name="books">Favourite Books (Separate by comma)</textarea>
+      <textarea id="artists" name="artists">Favourite Artists (Separate by comma)</textarea>
+      <button>Create Site</button>
+      </form>
+  </body>
 </html>
